@@ -7,10 +7,15 @@ const AppRouter = () => {
         <Suspense fallback={<div>Загрузка...</div>}>
             <Routes>
                 {Object.values(routerConfig).map(({path, element}) => (
+
                     <Route key={path}
                            path={path}
-                           element={element}
+                           element={<div className={'page-wrapper'}>
+                               {element}
+                           </div>}
                     />
+
+
                 ))}
             </Routes>
         </Suspense>

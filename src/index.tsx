@@ -14,7 +14,7 @@ import App from './app/App';
 import React from 'react';
 import {ThemeProvider} from 'app/providers/ThemeProviders';
 import {BrowserRouter} from 'react-router-dom';
-
+import './shared/config/i18n/i18n';
 
 
 const container = document.getElementById('root');
