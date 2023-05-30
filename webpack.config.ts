@@ -2,8 +2,8 @@
 // const HtmlWebpackPlugin = require('html-webpack-plugin');
 // const webpack = require('webpack'); //to access built-in plugins
 import path from 'path';
-import {buildWebpackConfig} from './config/build/buildWebpackConfig';
-import {BuildEnv, BuildPaths} from './config/build/types/config';
+import { buildWebpackConfig } from './config/build/buildWebpackConfig';
+import { BuildEnv, BuildPaths } from './config/build/types/config';
 
 export default (env: BuildEnv) => {
     const paths: BuildPaths = {
@@ -26,4 +26,3 @@ export default (env: BuildEnv) => {
         port: PORT,
     });
 };
-
