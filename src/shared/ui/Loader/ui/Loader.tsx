@@ -1,21 +1,15 @@
-import { classNames } from 'shared/lib/helpers/classNames/classNames';
 import './Loader.scss';
+import { classNames } from 'shared/lib/helpers/classNames/classNames';
 
 interface LoaderProps {
     className?: string;
 }
 
 export const Loader = ({ className }: LoaderProps) => (
-    <div className={classNames('ds-roller', {}, [className])}>
-        <div className="lds-roller">
-            <div />
-            <div />
-            <div />
-            <div />
-            <div />
-            <div />
-            <div />
-            <div />
-        </div>
+    <div className={classNames('lds-ellipsis', {}, [className])}>
+        <div />
+        <div />
+        <div />
+        <div />
     </div>
 );
