@@ -1,25 +1,12 @@
-// import {render} from 'react-dom';
-// import App from './App';
-// import {BrowserRouter} from 'react-router-dom';
-//
-// render(
-//     <BrowserRouter>
-//         <App/>
-//     </BrowserRouter>,
-//     document.getElementById('root'),
-// );
-
-import { createRoot } from 'react-dom/client';
-import React from 'react';
-import { ErrorBoundary } from 'app/providers/ErrorBoundary';
-import { ThemeProvider } from 'app/providers/ThemeProviders';
+import { render } from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
+import { ThemeProvider } from 'app/providers/ThemeProvider';
 import App from './app/App';
-import './shared/config/i18n/i18n';
 
-const container = document.getElementById('root');
-const root = createRoot(container); // createRoot(container!) if you use TypeScript
-root.render(
+import './shared/config/i18n/i18n';
+import { ErrorBoundary } from './app/providers/ErrorBoundary';
+
+render(
     <BrowserRouter>
         <ErrorBoundary>
             <ThemeProvider>
@@ -27,4 +14,5 @@ root.render(
             </ThemeProvider>
         </ErrorBoundary>
     </BrowserRouter>,
+    document.getElementById('root'),
 );
