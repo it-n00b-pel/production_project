@@ -1086,7 +1086,7 @@
     core-js-pure "^3.20.2"
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.10.2", "@babel/runtime@^7.12.0", "@babel/runtime@^7.12.5", "@babel/runtime@^7.14.5", "@babel/runtime@^7.14.6", "@babel/runtime@^7.14.8", "@babel/runtime@^7.16.3", "@babel/runtime@^7.16.7", "@babel/runtime@^7.3.1", "@babel/runtime@^7.5.0", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.7.6", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.10.2", "@babel/runtime@^7.12.0", "@babel/runtime@^7.12.5", "@babel/runtime@^7.14.5", "@babel/runtime@^7.14.6", "@babel/runtime@^7.14.8", "@babel/runtime@^7.15.4", "@babel/runtime@^7.16.3", "@babel/runtime@^7.16.7", "@babel/runtime@^7.3.1", "@babel/runtime@^7.5.0", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.7.6", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
   version "7.17.2"
   resolved "https://registry.npmjs.org/@babel/runtime/-/runtime-7.17.2.tgz"
   integrity sha512-hzeyJyMA1YGdJTuWU0e/j4wKXrU4OMFvY2MSlaI9B7VQb0r5cxTE3EAIS2Q7Tn2RIcDkRvTA/v2JsAEhxe99uw==
@@ -1553,133 +1553,133 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@loki/browser@^0.30.1":
-  version "0.30.1"
-  resolved "https://registry.npmjs.org/@loki/browser/-/browser-0.30.1.tgz"
-  integrity sha512-nevGQR3Cot6f25xXWQszl0vPgvbbKI+LBXyZqucymxNX8rOP0gCETGT21U+FnwF/7AU6bTPKKAG08xWJ6Qj9ig==
+"@loki/browser@^0.28.0":
+  version "0.28.0"
+  resolved "https://registry.npmjs.org/@loki/browser/-/browser-0.28.0.tgz"
+  integrity sha512-RjT615UAUTYIMARQg1drOdGNuX8nazpKRPXX5QviJtqorr6RObSrQ+copgtdGv5nxABcRBnTkDp3ZxC9YWSWFw==
   dependencies:
-    "@loki/integration-core" "^0.30.0"
+    "@loki/integration-core" "^0.28.0"
 
-"@loki/core@^0.30.0":
-  version "0.30.0"
-  resolved "https://registry.npmjs.org/@loki/core/-/core-0.30.0.tgz"
-  integrity sha512-1RtnAg5vqPaigazthdPQ+QpWiTsdJdw3obB9G07ckC4QkSe9CA/JEH8OrHRlNLPR9chia5vH5QGqze6URQA5fA==
+"@loki/core@^0.28.0":
+  version "0.28.0"
+  resolved "https://registry.npmjs.org/@loki/core/-/core-0.28.0.tgz"
+  integrity sha512-iotNQZaAIpaEO+UH7Bz+CTS4eOSHdkgNDyqVlZW9CDltOCmBij1KpisHI13vFhaIwwgF+/oZw9u+WA9n6rwisw==
   dependencies:
     shelljs "^0.8.3"
 
-"@loki/diff-graphics-magick@^0.30.0":
-  version "0.30.0"
-  resolved "https://registry.npmjs.org/@loki/diff-graphics-magick/-/diff-graphics-magick-0.30.0.tgz"
-  integrity sha512-GJzN+1H4M2bWM5sI/Bvzx1puy/GAbaE//uv9696n0lYYeVDeEEd+CEl2OVBsRF9mnxgPhBWZHPCKEwKVH81+QQ==
+"@loki/diff-graphics-magick@^0.28.0":
+  version "0.28.0"
+  resolved "https://registry.npmjs.org/@loki/diff-graphics-magick/-/diff-graphics-magick-0.28.0.tgz"
+  integrity sha512-tnbQkNEQUVcWmgWsLw/bu77YGwYhtLQQ0woJPMYBdNit6EK1vqdGGqzWqRvgJsnypllAj2HT+Xjc5VlaoJoXFQ==
   dependencies:
     fs-extra "^9.1.0"
     gm "^1.23.1"
 
-"@loki/diff-looks-same@^0.30.0":
-  version "0.30.0"
-  resolved "https://registry.npmjs.org/@loki/diff-looks-same/-/diff-looks-same-0.30.0.tgz"
-  integrity sha512-+pXv4CHdordps/0gSez+9se3D7kCKJIY9gDDOF2R29FylOttVbzW13ZlqCoA+lSnkSad4p3kVPoMs5SIEwyzgA==
+"@loki/diff-looks-same@^0.28.0":
+  version "0.28.0"
+  resolved "https://registry.npmjs.org/@loki/diff-looks-same/-/diff-looks-same-0.28.0.tgz"
+  integrity sha512-ZAZlQnMub7WPHWKhk9HxzrYYDeNaolLY9xM7/ZbGc8AbVVYfMNih7FLJNs5nVDiJCSGT/QpOJB55ocs8BV0HSA==
   dependencies:
     fs-extra "^9.1.0"
     looks-same "^4.0.0"
 
-"@loki/diff-pixelmatch@^0.30.0":
-  version "0.30.0"
-  resolved "https://registry.npmjs.org/@loki/diff-pixelmatch/-/diff-pixelmatch-0.30.0.tgz"
-  integrity sha512-35CjEgxAg2TqDmGA5UOzyvA+ptBKuDrRLQqwnbEMmlrT/qvnKVofKrd/DcfogKYpLRkWyLaK3RYSwQkpUi8CkQ==
+"@loki/diff-pixelmatch@^0.28.0":
+  version "0.28.0"
+  resolved "https://registry.npmjs.org/@loki/diff-pixelmatch/-/diff-pixelmatch-0.28.0.tgz"
+  integrity sha512-Nun3B6v0yczVQUGRV4kILLEelVYTW00C8SsQYuT7gFDtEKNqRKl5hAhW10tXrgNFuY6B7AXQwrw1WiaWfpp74Q==
   dependencies:
     fs-extra "^9.1.0"
     pixelmatch "^5.2.0"
     pngjs "^4.0.1"
 
-"@loki/integration-core@^0.30.0":
-  version "0.30.0"
-  resolved "https://registry.npmjs.org/@loki/integration-core/-/integration-core-0.30.0.tgz"
-  integrity sha512-1ylzYRpQAjrbRrZH8rn6NXegT2poGs+p1pZfFapVe6WsRqt22dAASGKrrLWtvAmYYNvmBDCitV5onO2XKFMPwQ==
+"@loki/integration-core@^0.28.0":
+  version "0.28.0"
+  resolved "https://registry.npmjs.org/@loki/integration-core/-/integration-core-0.28.0.tgz"
+  integrity sha512-Bt7gX51nbvdAUL1y9LWsZ8r71pHL3cH6QRqrkcTwZkq9ysddl3/u3Duy3T0hIZ2BaA6IieSZiY3yQ3FWyOAzGA==
 
-"@loki/integration-react-native@^0.30.0":
-  version "0.30.2"
-  resolved "https://registry.npmjs.org/@loki/integration-react-native/-/integration-react-native-0.30.2.tgz"
-  integrity sha512-/NPxRpTi3ggDKSEEbn9J5M360IAU1VbAHg4gwtRzVr0eq1u8yYARG/BNU/hHYcda3aJHjacKCYW6BGbeYImJEQ==
+"@loki/integration-react-native@^0.28.0":
+  version "0.28.0"
+  resolved "https://registry.npmjs.org/@loki/integration-react-native/-/integration-react-native-0.28.0.tgz"
+  integrity sha512-BD3tODT6QUwkrROFDofPvPgueWz9tENAAkI6tjQl0P6YDjuCqQOmpzYZ9WvLYEB/EjTzezaFQp7xN4YObzAhYA==
   dependencies:
-    "@loki/integration-core" "^0.30.0"
+    "@loki/integration-core" "^0.28.0"
 
-"@loki/integration-react@^0.30.0":
-  version "0.30.1"
-  resolved "https://registry.npmjs.org/@loki/integration-react/-/integration-react-0.30.1.tgz"
-  integrity sha512-u9gGJu1wOA7JoqHiGmtrfDAnQ0D5qqtkxSUVvmISX5PnZ2D51CIRUatBr5palrxsxVztZ1bucxw6IWIPKzEpdQ==
+"@loki/integration-react@^0.28.0":
+  version "0.28.0"
+  resolved "https://registry.npmjs.org/@loki/integration-react/-/integration-react-0.28.0.tgz"
+  integrity sha512-7Qa/L5IQEbOhMv7f84EPEaGiHU/wSnM4/pjGMDU6dBDJ3y+w5cHiKRJBKDmbVYMqbyXJGVDkzwXKfvaZWiH06A==
   dependencies:
-    "@loki/browser" "^0.30.1"
+    "@loki/browser" "^0.28.0"
 
-"@loki/integration-vue@^0.30.0":
-  version "0.30.1"
-  resolved "https://registry.npmjs.org/@loki/integration-vue/-/integration-vue-0.30.1.tgz"
-  integrity sha512-yyJ4/ZDiqE1VykPXAk26Gmdjgs82tGp9wjywwQOm8gtjLjfjG17J5fbfxlEsrSh39VvW3Z9remVig+ob+v8H6w==
+"@loki/integration-vue@^0.28.0":
+  version "0.28.0"
+  resolved "https://registry.npmjs.org/@loki/integration-vue/-/integration-vue-0.28.0.tgz"
+  integrity sha512-ZvN3ovrehR5zVHnz1+XwVbas1PfNUFvkQRXMqmpQtJVHxUjntvf1SIwkPxok67PfvsXHDbil344YrToBqpp9ww==
   dependencies:
-    "@loki/browser" "^0.30.1"
+    "@loki/browser" "^0.28.0"
 
-"@loki/runner@^0.30.0":
-  version "0.30.3"
-  resolved "https://registry.npmjs.org/@loki/runner/-/runner-0.30.3.tgz"
-  integrity sha512-jYiQLRYUXGypL8NytvJ+2FtBehN4GT8oyDYIxCmEvC3s5Dwb60OQ7QSXGUw3sjZ+YGJzARRXGqdtvJqDGmN0ng==
+"@loki/runner@^0.28.1":
+  version "0.28.1"
+  resolved "https://registry.npmjs.org/@loki/runner/-/runner-0.28.1.tgz"
+  integrity sha512-51Wfbo3XVRtsQXSAgoWYoSaEXOOtBeeT7Ipgf9fOo7VVWfFb30WhW+B9DTweAE2mqA1xNFeMAN1YP71pCsRUlA==
   dependencies:
-    "@loki/core" "^0.30.0"
-    "@loki/diff-graphics-magick" "^0.30.0"
-    "@loki/diff-looks-same" "^0.30.0"
-    "@loki/diff-pixelmatch" "^0.30.0"
-    "@loki/target-chrome-app" "^0.30.1"
-    "@loki/target-chrome-aws-lambda" "^0.30.0"
-    "@loki/target-chrome-docker" "^0.30.1"
-    "@loki/target-native-android-emulator" "^0.30.0"
-    "@loki/target-native-ios-simulator" "^0.30.0"
+    "@loki/core" "^0.28.0"
+    "@loki/diff-graphics-magick" "^0.28.0"
+    "@loki/diff-looks-same" "^0.28.0"
+    "@loki/diff-pixelmatch" "^0.28.0"
+    "@loki/target-chrome-app" "^0.28.0"
+    "@loki/target-chrome-aws-lambda" "^0.28.0"
+    "@loki/target-chrome-docker" "^0.28.1"
+    "@loki/target-native-android-emulator" "^0.28.0"
+    "@loki/target-native-ios-simulator" "^0.28.0"
     async "^3.2.0"
     chalk "^4.1.0"
     ci-info "^2.0.0"
     cosmiconfig "^7.0.0"
     fs-extra "^9.1.0"
     import-jsx "^4.0.0"
-    ink "^3.2.0"
+    ink "^3.0.8"
     minimist "^1.2.0"
     ramda "^0.27.1"
-    react "^17.0.2"
+    react "^16.14.0"
     transliteration "^2.2.0"
 
-"@loki/target-chrome-app@^0.30.0", "@loki/target-chrome-app@^0.30.1":
-  version "0.30.1"
-  resolved "https://registry.npmjs.org/@loki/target-chrome-app/-/target-chrome-app-0.30.1.tgz"
-  integrity sha512-RR9TTX24Jy/QM8dJYqNcU38r84m5qlssUKZY4ZvEIZQEpUR4DsECRd3WxqZ9ZPW0PLIFBsBzmzDVhqiGSIcGUA==
+"@loki/target-chrome-app@^0.28.0":
+  version "0.28.0"
+  resolved "https://registry.npmjs.org/@loki/target-chrome-app/-/target-chrome-app-0.28.0.tgz"
+  integrity sha512-VHiG819PDcyS17VU0EmGDNpfYEEQgW10TjjjMddxuREtWPisv2aJyk11e2oTqc53mB+Eycuzko3Gh8UrQF9nGg==
   dependencies:
-    "@loki/target-chrome-core" "^0.30.1"
-    chrome-launcher "^0.14.1"
+    "@loki/target-chrome-core" "^0.28.0"
+    chrome-launcher "^0.13.4"
     chrome-remote-interface "^0.29.0"
     debug "^4.1.1"
 
-"@loki/target-chrome-aws-lambda@^0.30.0":
-  version "0.30.0"
-  resolved "https://registry.npmjs.org/@loki/target-chrome-aws-lambda/-/target-chrome-aws-lambda-0.30.0.tgz"
-  integrity sha512-JswvZuB/RAoF4LtabTovvhKfEIePz3fLjjXjuPJCkySMd5ejwnIqlKuNWN/MB/Uxuh4ilQpi6uLPGSOJYHauDw==
+"@loki/target-chrome-aws-lambda@^0.28.0":
+  version "0.28.0"
+  resolved "https://registry.npmjs.org/@loki/target-chrome-aws-lambda/-/target-chrome-aws-lambda-0.28.0.tgz"
+  integrity sha512-sKTcjnLrJRZVGSfnSIhGR0GT5aTz8Pe3NRS3/hKKr7g+gMcLC9Moe2dPauxbw6NYNbtWp0j+Xw3/gNeUVRuFDg==
   dependencies:
-    "@loki/core" "^0.30.0"
+    "@loki/core" "^0.28.0"
     aws-sdk "^2.840.0"
     debug "^4.1.1"
 
-"@loki/target-chrome-core@^0.30.1":
-  version "0.30.1"
-  resolved "https://registry.npmjs.org/@loki/target-chrome-core/-/target-chrome-core-0.30.1.tgz"
-  integrity sha512-R7044jBy20oSWHYXSor6OHxJWz2V+1aV2O/sy+XYC+Ahv4H79ApCSbImtmDQq57Z5AOxQDcp6BDMPyk6R6aQSA==
+"@loki/target-chrome-core@^0.28.0":
+  version "0.28.0"
+  resolved "https://registry.npmjs.org/@loki/target-chrome-core/-/target-chrome-core-0.28.0.tgz"
+  integrity sha512-u5klPl0rrdjo2wXWNXxsXOBrjnnMk0ymvh0qvMiJxcv693lFjw5erFJzz8M2samM/dsuPKGOaFS0NnE81e/r1A==
   dependencies:
-    "@loki/browser" "^0.30.1"
-    "@loki/core" "^0.30.0"
-    "@loki/integration-core" "^0.30.0"
+    "@loki/browser" "^0.28.0"
+    "@loki/core" "^0.28.0"
+    "@loki/integration-core" "^0.28.0"
     debug "^4.1.1"
 
-"@loki/target-chrome-docker@^0.30.0", "@loki/target-chrome-docker@^0.30.1":
-  version "0.30.1"
-  resolved "https://registry.npmjs.org/@loki/target-chrome-docker/-/target-chrome-docker-0.30.1.tgz"
-  integrity sha512-6e+vprA54L04VzHvUaqwekyIOotnGTugdmOmSpWW060ajIbIneJNnupm/Hk+LvQu34enrgpP/MU4Wp/f77Qw1g==
+"@loki/target-chrome-docker@^0.28.1":
+  version "0.28.1"
+  resolved "https://registry.npmjs.org/@loki/target-chrome-docker/-/target-chrome-docker-0.28.1.tgz"
+  integrity sha512-yFyEHAvIockQGNQIWbVhV8HY7ekl/3ciy/f+i1gY6u2tn8gNGPsgqIYCyoUiZpcMKxyOChN2WKMOVBDhlJ0lgg==
   dependencies:
-    "@loki/core" "^0.30.0"
-    "@loki/target-chrome-core" "^0.30.1"
+    "@loki/core" "^0.28.0"
+    "@loki/target-chrome-core" "^0.28.0"
     chrome-remote-interface "^0.29.0"
     debug "^4.1.1"
     execa "^5.0.0"
@@ -1687,33 +1687,33 @@
     get-port "^5.1.1"
     wait-on "^5.2.1"
 
-"@loki/target-native-android-emulator@^0.30.0":
-  version "0.30.0"
-  resolved "https://registry.npmjs.org/@loki/target-native-android-emulator/-/target-native-android-emulator-0.30.0.tgz"
-  integrity sha512-dIvbnBcjkPJ/yDt8DKlbO2sHY7lOMpXMmbJqgwkDXWDp2EBWkFtrhUadJJOBbM0m+53qzJIXxzEkBLihXMLPUw==
+"@loki/target-native-android-emulator@^0.28.0":
+  version "0.28.0"
+  resolved "https://registry.npmjs.org/@loki/target-native-android-emulator/-/target-native-android-emulator-0.28.0.tgz"
+  integrity sha512-b9/75RYpYMJSYG0kTjqhRIKvkKuio7th/bpVqRIus4gEKK7/npRWirP1ZFYM0hTViBY/Gm0TBlKFMtWeG5ZyNA==
   dependencies:
-    "@loki/core" "^0.30.0"
-    "@loki/target-native-core" "^0.30.0"
+    "@loki/core" "^0.28.0"
+    "@loki/target-native-core" "^0.28.0"
     fs-extra "^9.1.0"
     osnap "^1.1.0"
     tempy "^1.0.0"
 
-"@loki/target-native-core@^0.30.0":
-  version "0.30.0"
-  resolved "https://registry.npmjs.org/@loki/target-native-core/-/target-native-core-0.30.0.tgz"
-  integrity sha512-3L3qTzitAXJqwA3MbYcrKt0oYkVTUm5XwP7t3dW2xTV+ZQSbc7yN1ZnAlmUhqnz+bRivaSKgOLifPQFPV451pw==
+"@loki/target-native-core@^0.28.0":
+  version "0.28.0"
+  resolved "https://registry.npmjs.org/@loki/target-native-core/-/target-native-core-0.28.0.tgz"
+  integrity sha512-dI5RFUVDeSOy2HVvPtWtpkOahxRXQ73IIiCGEAKQWcH3DCRY+b2i/srSaKeOzxQR3h08Qv1/27IlJd2DQl90hg==
   dependencies:
-    "@loki/core" "^0.30.0"
+    "@loki/core" "^0.28.0"
     debug "^4.1.1"
     ws "^7.2.0"
 
-"@loki/target-native-ios-simulator@^0.30.0":
-  version "0.30.0"
-  resolved "https://registry.npmjs.org/@loki/target-native-ios-simulator/-/target-native-ios-simulator-0.30.0.tgz"
-  integrity sha512-dvUIoPYYmIQEIDBl6keq9MOcyVfbg8g0SPwMVBn9KnqrLWejehCZvql7QNLHig6yxcvswZda/lxtWO4/TPMOfA==
+"@loki/target-native-ios-simulator@^0.28.0":
+  version "0.28.0"
+  resolved "https://registry.npmjs.org/@loki/target-native-ios-simulator/-/target-native-ios-simulator-0.28.0.tgz"
+  integrity sha512-F0Xv2UlHZqyhUBMagprOknJxyKAY7M5juqKwM6t7+bKUesAOF02++BzoNJD+81eDqin61zen4117f9Ihqz60rA==
   dependencies:
-    "@loki/core" "^0.30.0"
-    "@loki/target-native-core" "^0.30.0"
+    "@loki/core" "^0.28.0"
+    "@loki/target-native-core" "^0.28.0"
     fs-extra "^9.1.0"
     osnap "^1.1.0"
     tempy "^1.0.0"
@@ -1836,6 +1836,16 @@
   version "2.11.2"
   resolved "https://registry.npmjs.org/@popperjs/core/-/core-2.11.2.tgz"
   integrity sha512-92FRmppjjqz29VMJ2dn+xdyXZBrMlE42AV6Kq6BwjWV7CNUW1hs2FtxSNLQE+gJhaZ6AAmYuO9y8dshhcBl7vA==
+
+"@reduxjs/toolkit@^1.8.0":
+  version "1.9.5"
+  resolved "https://registry.npmjs.org/@reduxjs/toolkit/-/toolkit-1.9.5.tgz"
+  integrity sha512-Rt97jHmfTeaxL4swLRNPD/zV4OxTes4la07Xc4hetpUW/vc75t5m1ANyxG6ymnEQ2FsLQsoMlYB2vV1sO3m8tQ==
+  dependencies:
+    immer "^9.0.21"
+    redux "^4.2.1"
+    redux-thunk "^2.4.2"
+    reselect "^4.1.8"
 
 "@sideway/address@^4.1.3":
   version "4.1.4"
@@ -3170,6 +3180,14 @@
   resolved "https://registry.npmjs.org/@types/history/-/history-4.7.11.tgz"
   integrity sha512-qjDJRrmvBMiTx+jyLxvLfJU7UznFuokDv4f3WRuriHKERccVpFU+8XMQUAbDzoiJCsmexxRExQeMwwCdamSKDA==
 
+"@types/hoist-non-react-statics@^3.3.0":
+  version "3.3.1"
+  resolved "https://registry.npmjs.org/@types/hoist-non-react-statics/-/hoist-non-react-statics-3.3.1.tgz"
+  integrity sha512-iMIqiko6ooLrTh1joXodJK5X9xeEALT1kM5G3ZLhD3hszxBdIEd5C75U834D9mLcINgD4OyZf5uQXjkuYydWvA==
+  dependencies:
+    "@types/react" "*"
+    hoist-non-react-statics "^3.3.0"
+
 "@types/html-minifier-terser@^5.0.0":
   version "5.1.2"
   resolved "https://registry.npmjs.org/@types/html-minifier-terser/-/html-minifier-terser-5.1.2.tgz"
@@ -3351,6 +3369,16 @@
   integrity sha512-f96K3k+24RaLGVu/Y2Ng3e1EbZ8/cVJvypZWd7cy0ofCBaf2lcM46xNhycMZ2xGwbBjRql7hOlZ+e2WlJ5MH3Q==
   dependencies:
     "@types/react" "*"
+
+"@types/react-redux@^7.1.20":
+  version "7.1.25"
+  resolved "https://registry.npmjs.org/@types/react-redux/-/react-redux-7.1.25.tgz"
+  integrity sha512-bAGh4e+w5D8dajd6InASVIyCo4pZLJ66oLb80F9OBLO1gKESbZcRCJpTT6uLXX+HAB57zw1WTdwJdAsewuTweg==
+  dependencies:
+    "@types/hoist-non-react-statics" "^3.3.0"
+    "@types/react" "*"
+    hoist-non-react-statics "^3.3.0"
+    redux "^4.0.0"
 
 "@types/react-router-dom@^5.3.3":
   version "5.3.3"
@@ -4421,9 +4449,9 @@ available-typed-arrays@^1.0.5:
   integrity sha512-DMD0KiN46eipeziST1LPP/STfDU0sufISXmjSgvVsoU2tqxctQeASejWcfNtxYKqETM1UxQ8sp2OrSBWpHY6sw==
 
 aws-sdk@^2.840.0:
-  version "2.1401.0"
-  resolved "https://registry.npmjs.org/aws-sdk/-/aws-sdk-2.1401.0.tgz"
-  integrity sha512-qzuMxIvCmH1Df194sYn+L5yDrChIKzZG/fBLElPVSN1fB18qhPSYUfr9uVCMeTpDCmdTW1Ojk7cAkByzzAnKjA==
+  version "2.1403.0"
+  resolved "https://registry.npmjs.org/aws-sdk/-/aws-sdk-2.1403.0.tgz"
+  integrity sha512-qRhiE2iqfXhTEsGJ0unNY7mz5Y7YA4ljEh/1lU/HaUI8hPCQtmZjU3P2/w2YcHFaSzJsu9J9svzjkALfHpetoA==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
@@ -5230,15 +5258,17 @@ chownr@^2.0.0:
   resolved "https://registry.npmjs.org/chownr/-/chownr-2.0.0.tgz"
   integrity sha512-bIomtDF5KGpdogkLd9VspvFzk9KfpyyGlS8YFVZl7TGPBHL5snIOnxeshwVgPteQ9b4Eydl+pVbIyE1DcvCWgQ==
 
-chrome-launcher@^0.14.1:
-  version "0.14.2"
-  resolved "https://registry.npmjs.org/chrome-launcher/-/chrome-launcher-0.14.2.tgz"
-  integrity sha512-Nk8DUCIfPR6p9WClPPFeP2ztpAdkT8xueoiDS03csea1uoJjm4w0p5Oy1hjykyjT1EQ0MMrEshLD3C8gHXyiZw==
+chrome-launcher@^0.13.4:
+  version "0.13.4"
+  resolved "https://registry.npmjs.org/chrome-launcher/-/chrome-launcher-0.13.4.tgz"
+  integrity sha512-nnzXiDbGKjDSK6t2I+35OAPBy5Pw/39bgkb/ZAFwMhwJbdYBp6aH+vW28ZgtjdU890Q7D+3wN/tB8N66q5Gi2A==
   dependencies:
     "@types/node" "*"
-    escape-string-regexp "^4.0.0"
+    escape-string-regexp "^1.0.5"
     is-wsl "^2.2.0"
     lighthouse-logger "^1.0.0"
+    mkdirp "^0.5.3"
+    rimraf "^3.0.2"
 
 chrome-remote-interface@^0.29.0:
   version "0.29.0"
@@ -6707,7 +6737,7 @@ eslint-plugin-jsx-a11y@^6.5.1:
     language-tags "^1.0.5"
     minimatch "^3.0.4"
 
-eslint-plugin-react-hooks@^4.3.0, eslint-plugin-react-hooks@^4.6.0:
+eslint-plugin-react-hooks@^4.3.0:
   version "4.6.0"
   resolved "https://registry.npmjs.org/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-4.6.0.tgz"
   integrity sha512-oFc7Itz9Qxh2x4gNHStv3BqJq54ExXmfC+a1NjAta66IAN87Wu0R/QArgIS9qKzX3dXKPI9H5crl9QchNMY9+g==
@@ -7951,7 +7981,7 @@ hmac-drbg@^1.0.1:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.1"
 
-hoist-non-react-statics@^3.3.0:
+hoist-non-react-statics@^3.3.0, hoist-non-react-statics@^3.3.2:
   version "3.3.2"
   resolved "https://registry.npmjs.org/hoist-non-react-statics/-/hoist-non-react-statics-3.3.2.tgz"
   integrity sha512-/gGivxi8JPKWNm/W0jSmzcMPpfpPLc3dY/6GxhX2hQ9iGj3aDfklV4ET7NjKpSinLpJ5vafa9iiGIEZg10SfBw==
@@ -8248,6 +8278,11 @@ img-diff-js@0.5.2:
     pixelmatch "^5.2.1"
     pngjs "^6.0.0"
 
+immer@^9.0.21:
+  version "9.0.21"
+  resolved "https://registry.npmjs.org/immer/-/immer-9.0.21.tgz"
+  integrity sha512-bc4NBHqOqSfRW7POMkHd51LvClaeMXpm8dx0e8oE2GORbq5aRK7Bxl4FyzVLdGtLmvLKL7BTDBG5ACQm4HWjTA==
+
 immutable@^4.0.0:
   version "4.0.0"
   resolved "https://registry.npmjs.org/immutable/-/immutable-4.0.0.tgz"
@@ -8339,7 +8374,7 @@ ini@^1.3.5:
   resolved "https://registry.npmjs.org/ini/-/ini-1.3.8.tgz"
   integrity sha512-JV/yugV2uzW5iMRSiZAyDtQd+nxtUnjeLt0acNdw98kKLrvuRVyB80tsREOE7yvGVgalhZ6RNXCmEHkUKBKxew==
 
-ink@^3.2.0:
+ink@^3.0.8:
   version "3.2.0"
   resolved "https://registry.npmjs.org/ink/-/ink-3.2.0.tgz"
   integrity sha512-firNp1q3xxTzoItj/eOOSZQnYSlyrWks5llCTVX37nJ59K3eXbQ8PtzCguqo8YI19EELo5QxaKnJd4VxzhU8tg==
@@ -9784,19 +9819,19 @@ lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17
   resolved "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
-loki@^0.30.0:
-  version "0.30.0"
-  resolved "https://registry.npmjs.org/loki/-/loki-0.30.0.tgz"
-  integrity sha512-QWYFYy+KBILng0l7D5ENdOpXb8YpTo4TAfUmXnJ1ZUTlW82CidEV0DqlV+wBOb7kLPFuuv66GEP5rl9I/zVHnw==
+loki@^0.28.1:
+  version "0.28.1"
+  resolved "https://registry.npmjs.org/loki/-/loki-0.28.1.tgz"
+  integrity sha512-SUFAkDKk4s3WgOloKAerDDQL/XgmOAFT83s373KeC0DGORmZc4pF5TXcBhtWGRAki+qmlrP8lBGVlDbIjXQpVA==
   dependencies:
-    "@loki/integration-react" "^0.30.0"
-    "@loki/integration-react-native" "^0.30.0"
-    "@loki/integration-vue" "^0.30.0"
-    "@loki/runner" "^0.30.0"
-    "@loki/target-chrome-app" "^0.30.0"
-    "@loki/target-chrome-docker" "^0.30.0"
-    "@loki/target-native-android-emulator" "^0.30.0"
-    "@loki/target-native-ios-simulator" "^0.30.0"
+    "@loki/integration-react" "^0.28.0"
+    "@loki/integration-react-native" "^0.28.0"
+    "@loki/integration-vue" "^0.28.0"
+    "@loki/runner" "^0.28.1"
+    "@loki/target-chrome-app" "^0.28.0"
+    "@loki/target-chrome-docker" "^0.28.1"
+    "@loki/target-native-android-emulator" "^0.28.0"
+    "@loki/target-native-ios-simulator" "^0.28.0"
 
 looks-same@^4.0.0:
   version "4.1.0"
@@ -11452,7 +11487,7 @@ prompts@^2.0.1, prompts@^2.4.0:
     kleur "^3.0.3"
     sisteransi "^1.0.5"
 
-prop-types@^15.0.0, prop-types@^15.6.0, prop-types@^15.7.2, prop-types@^15.8.1:
+prop-types@^15.0.0, prop-types@^15.6.0, prop-types@^15.6.2, prop-types@^15.7.2, prop-types@^15.8.1:
   version "15.8.1"
   resolved "https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz"
   integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
@@ -11763,6 +11798,18 @@ react-reconciler@^0.26.2:
     object-assign "^4.1.1"
     scheduler "^0.20.2"
 
+"react-redux@^7.2.1 || ^8.0.2", react-redux@^7.2.6:
+  version "7.2.9"
+  resolved "https://registry.npmjs.org/react-redux/-/react-redux-7.2.9.tgz"
+  integrity sha512-Gx4L3uM182jEEayZfRbI/G11ZpYdNAnBs70lFVMNdHJI76XYtR+7m0MN+eAs7UHBPhWXcnFPaS+9owSCJQHNpQ==
+  dependencies:
+    "@babel/runtime" "^7.15.4"
+    "@types/react-redux" "^7.1.20"
+    hoist-non-react-statics "^3.3.2"
+    loose-envify "^1.4.0"
+    prop-types "^15.7.2"
+    react-is "^17.0.2"
+
 react-refresh@^0.11.0, "react-refresh@>=0.10.0 <1.0.0":
   version "0.11.0"
   resolved "https://registry.npmjs.org/react-refresh/-/react-refresh-0.11.0.tgz"
@@ -11813,13 +11860,22 @@ react-textarea-autosize@^8.3.0:
     use-composed-ref "^1.0.0"
     use-latest "^1.0.0"
 
-react@*, "react@^0.14.8 || ^15.0.1 || ^16.0.0 || ^17.0.1", "react@^16.13.1 || ^17.0.0", "react@^16.6.0 || ^17.0.0", "react@^16.8.0 || ^17", "react@^16.8.0 || ^17.0.0", "react@^16.8.4 || ^17.0.0", react@^17.0.2, "react@>= 0.14.0", "react@>= 16.3.0", "react@>= 16.8.0", react@>=16.12.0, react@>=16.3.0, react@>=16.8, react@>=16.8.0, react@17.0.2:
+react@*, "react@^0.14.8 || ^15.0.1 || ^16.0.0 || ^17.0.1", "react@^16.13.1 || ^17.0.0", "react@^16.6.0 || ^17.0.0", "react@^16.8.0 || ^17", "react@^16.8.0 || ^17.0.0", "react@^16.8.3 || ^17 || ^18", "react@^16.8.4 || ^17.0.0", "react@^16.9.0 || ^17.0.0 || ^18", react@^17.0.2, "react@>= 0.14.0", "react@>= 16.3.0", "react@>= 16.8.0", react@>=16.12.0, react@>=16.3.0, react@>=16.8, react@>=16.8.0, react@17.0.2:
   version "17.0.2"
   resolved "https://registry.npmjs.org/react/-/react-17.0.2.tgz"
   integrity sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
+
+react@^16.14.0:
+  version "16.14.0"
+  resolved "https://registry.npmjs.org/react/-/react-16.14.0.tgz"
+  integrity sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
 
 read-pkg-up@^1.0.1:
   version "1.0.1"
@@ -12028,6 +12084,18 @@ redent@^3.0.0:
   dependencies:
     indent-string "^4.0.0"
     strip-indent "^3.0.0"
+
+redux-thunk@^2.4.2:
+  version "2.4.2"
+  resolved "https://registry.npmjs.org/redux-thunk/-/redux-thunk-2.4.2.tgz"
+  integrity sha512-+P3TjtnP0k/FEjcBL5FZpoovtvrTNT/UXd4/sluaSyrURlSlhLSzEdfsTBW7WsKB6yPvgd7q/iZPICFjW4o57Q==
+
+redux@^4, redux@^4.0.0, redux@^4.2.1:
+  version "4.2.1"
+  resolved "https://registry.npmjs.org/redux/-/redux-4.2.1.tgz"
+  integrity sha512-LAUYz4lc+Do8/g7aeRa8JkyDErK6ekstQaqWQrNRW//MY1TvCEpMtpTWvlQ+FPbWCx+Xixu/6SHt5N0HR+SB4w==
+  dependencies:
+    "@babel/runtime" "^7.9.2"
 
 refractor@^3.1.0:
   version "3.6.0"
@@ -12264,6 +12332,11 @@ requires-port@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/requires-port/-/requires-port-1.0.0.tgz"
   integrity sha1-kl0mAdOaxIXgkc8NpcbmlNw9yv8=
+
+reselect@^4.1.8:
+  version "4.1.8"
+  resolved "https://registry.npmjs.org/reselect/-/reselect-4.1.8.tgz"
+  integrity sha512-ab9EmR80F/zQTMNeneUr4cv+jSwPJgIlvEmVwLerwrWVbpLlBuls9XHzIeTFy4cegU2NHBp3va0LKOzU5qFEYQ==
 
 resolve-cwd@^3.0.0:
   version "3.0.0"
