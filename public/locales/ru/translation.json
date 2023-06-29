@@ -13,5 +13,8 @@
   "Переключить": "Переключить",
   "Короткий язык": "Ru",
   "increment": "increment",
-  "decrement": "decrement"
+  "decrement": "decrement",
+  "Введите username": "Введите username",
+  "Введите пароль": "Введите пароль",
+  "Введите текст": "Введите текст"
 }
