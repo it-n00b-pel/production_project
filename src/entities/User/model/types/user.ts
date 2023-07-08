@@ -6,3 +6,9 @@ export interface User {
 export interface UserSchema {
     authData?: User;
 }
+
+export enum Currency {
+    'RUB' = 'RUB',
+    'EUR' = 'EUR',
+    'USD' = 'USD',
+}
