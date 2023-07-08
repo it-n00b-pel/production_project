@@ -16,7 +16,7 @@ export interface StateSchema {
     counter: CounterSchema;
     user: UserSchema;
     loginForm?: LoginSchema;
-    profile: ProfileSchema
+    profile?: ProfileSchema
 
 }
 
@@ -35,7 +35,7 @@ export interface ReduxStoreWithManager extends EnhancedStore<StateSchema>{
 
 export interface ThankExtraArg {
     api: AxiosInstance,
-    navigate: (to: To, options?: NavigateOptions) => void,
+    navigate?: (to: To, options?: NavigateOptions) => void,
 }
 
 export interface ThunkConfig<T> {
