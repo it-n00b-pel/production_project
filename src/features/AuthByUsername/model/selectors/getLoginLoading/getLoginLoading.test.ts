@@ -3,7 +3,7 @@ import {
     getLoginLoading,
 } from 'features/AuthByUsername/model/selectors/getLoginLoading/getLoginLoading';
 
-describe('getLoginLoading.test', () => {
+describe('getLoginLoading.tests', () => {
     test('should return true', () => {
         const state: DeepPartial<StateSchema> = {
             loginForm: {

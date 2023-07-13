@@ -57,7 +57,7 @@ export const Navbar = memo(({ className }: NavbarProps) => {
                     isOpen={isAuthModal}
                     onClose={onCloseModal}
                 />
-            ) }
+            )}
         </div>
     );
 });

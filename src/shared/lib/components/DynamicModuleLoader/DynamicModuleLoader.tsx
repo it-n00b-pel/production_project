@@ -1,17 +1,14 @@
 import { FC, useEffect } from 'react';
 import { useDispatch, useStore } from 'react-redux';
-import {
-    ReduxStoreWithManager,
-    StateSchemaKey,
-} from 'app/providers/StoreProvider/config/StateSchema';
+import { ReduxStoreWithManager, StateSchemaKey } from 'app/providers/StoreProvider/config/StateSchema';
 import { Reducer } from '@reduxjs/toolkit';
 
-export type ReducerList = {
-    [name in StateSchemaKey]?: Reducer
+export type ReducersList = {
+    [name in StateSchemaKey]?: Reducer;
 }
 
 interface DynamicModuleLoaderProps {
-    reducers: ReducerList;
+    reducers: ReducersList;
     removeAfterUnmount?: boolean;
 }
 
@@ -22,8 +19,8 @@ export const DynamicModuleLoader: FC<DynamicModuleLoaderProps> = (props) => {
         removeAfterUnmount,
     } = props;
 
-    const dispatch = useDispatch();
     const store = useStore() as ReduxStoreWithManager;
+    const dispatch = useDispatch();
 
     useEffect(() => {
         Object.entries(reducers).forEach(([name, reducer]) => {
@@ -41,11 +38,11 @@ export const DynamicModuleLoader: FC<DynamicModuleLoaderProps> = (props) => {
         };
         // eslint-disable-next-line
     }, []);
+
     return (
         // eslint-disable-next-line react/jsx-no-useless-fragment
         <>
-            { children }
+            {children}
         </>
-
     );
 };

@@ -5,7 +5,7 @@ import { $api } from 'shared/api/api';
 import { To } from 'history';
 import { NavigateOptions } from 'react-router';
 import { CombinedState, Reducer } from 'redux';
-import { StateSchema, ThankExtraArg } from './StateSchema';
+import { StateSchema, ThunkExtraArg } from './StateSchema';
 import { createReducerManager } from './reducerManager';
 
 export function createReduxStore(
@@ -21,7 +21,7 @@ export function createReduxStore(
 
     const reducerManager = createReducerManager(rootReducers);
 
-    const extraArg: ThankExtraArg = {
+    const extraArg: ThunkExtraArg = {
         api: $api,
         navigate,
     };

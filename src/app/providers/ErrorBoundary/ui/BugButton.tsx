@@ -1,9 +1,9 @@
 import { Button } from 'shared/ui/Button/Button';
-import { memo, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
 // Компонент для тестирования ErrorBoundary
-export const BugButton = memo(() => {
+export const BugButton = () => {
     const [error, setError] = useState(false);
     const { t } = useTranslation();
 
@@ -22,4 +22,4 @@ export const BugButton = memo(() => {
             {t('throw error')}
         </Button>
     );
-});
+};

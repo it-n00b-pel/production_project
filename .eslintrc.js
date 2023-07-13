@@ -60,10 +60,11 @@ module.exports = {
     globals: {
         __IS_DEV__: true,
         __API__: true,
+        __PROJECT__: true,
     },
     overrides: [
         {
-            files: ['**/src/**/*.{test,stories}.{ts,tsx}'],
+            files: ['**/src/**/*.{tests,stories}.{ts,tsx}'],
             rules: {
                 'i18next/no-literal-string': 'off',
                 'max-len': 'off',

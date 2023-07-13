@@ -1,16 +1,13 @@
 import React from 'react';
 import { ComponentMeta, ComponentStory } from '@storybook/react';
-import { Avatar } from './Avatar';
-import AvatarImg from './stotybook.jpg';
+import { Avatar } from 'shared/ui/Avatar/Avatar';
+import AvatarImg from './storybook.jpg';
 
 export default {
     title: 'shared/Avatar',
     component: Avatar,
     argTypes: {
         backgroundColor: { control: 'color' },
-    },
-    args: {
-        to: '/',
     },
 } as ComponentMeta<typeof Avatar>;
 
@@ -24,6 +21,6 @@ Primary.args = {
 
 export const Small = Template.bind({});
 Small.args = {
-    size: 70,
+    size: 50,
     src: AvatarImg,
 };
